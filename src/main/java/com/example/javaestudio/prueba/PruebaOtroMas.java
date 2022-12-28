@@ -4,7 +4,6 @@ public class PruebaOtroMas {
 
     public static void main(String[] args) {
 
-
         PruebaOtro persona1 = new PruebaOtro();
         persona1.nombre = "Violeta España";
         persona1.ciudad = "Paipa";
