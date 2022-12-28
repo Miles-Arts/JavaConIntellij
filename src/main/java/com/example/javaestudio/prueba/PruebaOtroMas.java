@@ -9,6 +9,7 @@ public class PruebaOtroMas {
         persona1.ciudad = "Paipa";
         persona1.profesion = "Ingeniera de vías";
         persona1.edad = 26;
+        persona1.amigaDeMilton = true;
 
         persona1.imprimirPersona();
 

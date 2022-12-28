@@ -6,6 +6,7 @@ public class PruebaOtro {
         String nombre;
         String ciudad;
         String profesion;
+        boolean amigaDeMilton;
         int edad;
 
     void imprimirPersona() {
