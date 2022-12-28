@@ -16,28 +16,28 @@ public class PruebaOtroMas {
 
         persona1.imprimirPersona();
 
-        if (persona1.amigaDeMilton == true  ) {
+        if (persona1.amigaDeMilton == true) {
             System.out.println("Puedes verse, salir a comer helado");
-        } else if (persona1.amigaDeMilton == false  ) {
+        } else if (persona1.amigaDeMilton == false) {
             System.out.println("Lo siente no puedes verlo");
         }
 
         //bucle o lops
 
-        for( int i = 9;  i < persona1.hora; i++ ) {
+        for (int i = 9; i < persona1.hora; i++) {
             System.out.println("Hora de la cita: " + i + "am");
         }
 
-        if ( persona1.mesa == 7.0 ) {
+        if (persona1.mesa == 7.0) {
             System.out.println("tu mesa ya está reservada");
-        } else if ( persona1.mesa == 30 ) {
+        } else if (persona1.mesa == 30) {
             System.out.println("Lo sentimos llegaste tarde");
         }
 
         // while loop
 
-        while ( persona1.dia < 5 ) {
-            System.out.println("El " + persona1.dia  + " es Martes, buen día para vernos " );
+        while (persona1.dia < 5) {
+            System.out.println("El " + persona1.dia + " es Martes, buen día para vernos ");
             persona1.dia++;
         }
 
@@ -45,19 +45,16 @@ public class PruebaOtroMas {
         /**
          * Hola
          */
-
         int x = 0;
         int z = 5;
-
-
+        //Exception con TRY y CATCH
         try {
-            System.out.println(z/x);
+            System.out.println(z / x);
         } catch (Exception exception) {
             System.out.println("Usuario es imposible dividir en 0");
         }
 
-
+        //API
 
     }
-
 }
