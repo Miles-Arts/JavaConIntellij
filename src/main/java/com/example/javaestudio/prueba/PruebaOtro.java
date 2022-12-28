@@ -8,6 +8,9 @@ public class PruebaOtro {
         String profesion;
         boolean amigaDeMilton;
         int edad;
+        double mesa;
+        int hora;
+        int dia;
 
     void imprimirPersona() {
 
