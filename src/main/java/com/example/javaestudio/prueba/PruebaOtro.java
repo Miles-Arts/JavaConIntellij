@@ -6,7 +6,7 @@ public class PruebaOtro {
 
 
         String nombre;
-        String ciudad;
+        String departamento;
         String profesion;
         boolean amigaDeMilton;
         int edad;
@@ -17,7 +17,7 @@ public class PruebaOtro {
     void imprimirPersona() {
 
         System.out.println(nombre);
-        System.out.println(ciudad);
+        System.out.println(departamento);
         System.out.println(profesion);
         System.out.println(edad);
     }
@@ -26,10 +26,10 @@ public class PruebaOtro {
 
         PruebaOtro persona = new PruebaOtro();
 
-        persona.nombre = "Milton Figueredo";
-        persona.ciudad = "Tuta";
+        persona.nombre = "Miles";
+        persona.departamento = "Boyacá";
         persona.profesion = "Programador en Java";
-        persona.edad = 38;
+        persona.edad = 25;
 
         persona.imprimirPersona();
         //System.out.println(persona.nombre);

@@ -6,7 +6,7 @@ public class PruebaOtroMas {
 
         PruebaOtro persona1 = new PruebaOtro();
         persona1.nombre = "Violeta España";
-        persona1.ciudad = "Paipa";
+        persona1.departamento = "Bogotá";
         persona1.profesion = "Ingeniera de vías";
         persona1.edad = 26;
         persona1.amigaDeMilton = true;
