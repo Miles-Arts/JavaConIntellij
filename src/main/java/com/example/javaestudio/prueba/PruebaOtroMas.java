@@ -49,6 +49,7 @@ public class PruebaOtroMas {
         int x = 0;
         int z = 5;
 
+
         try {
             System.out.println(z/x);
         } catch (Exception exception) {
