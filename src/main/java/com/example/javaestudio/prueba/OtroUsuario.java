@@ -15,7 +15,7 @@ public class OtroUsuario {
 
         if (persona2.amigaDeMilton == true  ) {
             System.out.println("Puedes verse, salir a comer helado");
-        } else {
+        } else if (persona2.amigaDeMilton == false  ) {
             System.out.println("Lo siente no puedes verlo");
         }
 

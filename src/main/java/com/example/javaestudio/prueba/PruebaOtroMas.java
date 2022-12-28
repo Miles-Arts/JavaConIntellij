@@ -13,6 +13,11 @@ public class PruebaOtroMas {
 
         persona1.imprimirPersona();
 
+        if (persona1.amigaDeMilton == true  ) {
+            System.out.println("Puedes verse, salir a comer helado");
+        } else if (persona1.amigaDeMilton == false  ) {
+            System.out.println("Lo siente no puedes verlo");
+        }
 
     }
 
